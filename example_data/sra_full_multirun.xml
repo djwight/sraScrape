@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE EXPERIMENT_PACKAGE_SET>
+<EXPERIMENT_PACKAGE_SET>
+  <EXPERIMENT_PACKAGE>
+    <EXPERIMENT accession="ERX13346863" alias="10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56" center_name="University of Bremen">
+      <IDENTIFIERS>
+        <PRIMARY_ID>ERX13346863</PRIMARY_ID>
+      </IDENTIFIERS>
+      <TITLE>Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction - Bacteria 16Sr RNA</TITLE>
+      <STUDY_REF accession="ERP166115">
+        <IDENTIFIERS>
+          <PRIMARY_ID>ERP166115</PRIMARY_ID>
+          <EXTERNAL_ID namespace="BioProject">PRJEB82428</EXTERNAL_ID>
+        </IDENTIFIERS>
+      </STUDY_REF>
+      <DESIGN>
+        <DESIGN_DESCRIPTION/>
+        <SAMPLE_DESCRIPTOR accession="ERS22115519">
+          <IDENTIFIERS>
+            <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+            <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+          </IDENTIFIERS>
+        </SAMPLE_DESCRIPTOR>
+        <LIBRARY_DESCRIPTOR>
+          <LIBRARY_NAME>Lib56</LIBRARY_NAME>
+          <LIBRARY_STRATEGY>AMPLICON</LIBRARY_STRATEGY>
+          <LIBRARY_SOURCE>METATRANSCRIPTOMIC</LIBRARY_SOURCE>
+          <LIBRARY_SELECTION>RT-PCR</LIBRARY_SELECTION>
+          <LIBRARY_LAYOUT>
+            <PAIRED NOMINAL_LENGTH="291"/>
+          </LIBRARY_LAYOUT>
+          <LIBRARY_CONSTRUCTION_PROTOCOL>RNA was extracted from slurry with a phenol-chloroform protocol. RNA was density separated into 14 fraction by ultra-centrifugation. Selected fractions were pooled for cDNA synthesis. PCRs were performed using primers with unique 8 bp barcodes at forward and reverse primers. Multiple samples were pooled into one library for sequencing. Some samples were sequenced on multiple sequence lanes and libraries in order to retrieve sufficient reads; during demultiplexing reads were sorted by read direction forward-reverse or reverse-forward using the primer sequence, resulting in multiple paired fastq files (=runs) for the same ENA experiment</LIBRARY_CONSTRUCTION_PROTOCOL>
+        </LIBRARY_DESCRIPTOR>
+      </DESIGN>
+      <PLATFORM>
+        <ILLUMINA>
+          <INSTRUMENT_MODEL>Illumina NovaSeq 6000</INSTRUMENT_MODEL>
+        </ILLUMINA>
+      </PLATFORM>
+      <EXPERIMENT_ATTRIBUTES>
+        <EXPERIMENT_ATTRIBUTE>
+          <TAG>investigation type</TAG>
+          <VALUE>mimarks-survey</VALUE>
+        </EXPERIMENT_ATTRIBUTE>
+        <EXPERIMENT_ATTRIBUTE>
+          <TAG>target gene</TAG>
+          <VALUE>16S rRNA</VALUE>
+        </EXPERIMENT_ATTRIBUTE>
+        <EXPERIMENT_ATTRIBUTE>
+          <TAG>target subfragment</TAG>
+          <VALUE>V4</VALUE>
+        </EXPERIMENT_ATTRIBUTE>
+        <EXPERIMENT_ATTRIBUTE>
+          <TAG>target organism</TAG>
+          <VALUE>Bacteria</VALUE>
+        </EXPERIMENT_ATTRIBUTE>
+        <EXPERIMENT_ATTRIBUTE>
+          <TAG>pcr primers</TAG>
+          <VALUE>FWD:GTGYCAGCMGCCGCGGTAA;REV:GACTACHVGGGTATCTAATCC</VALUE>
+        </EXPERIMENT_ATTRIBUTE>
+        <EXPERIMENT_ATTRIBUTE>
+          <TAG>pcr conditions</TAG>
+          <VALUE>initial denaturation:95_5;denaturation:98_0.25;annealing:60_0.33;elongation:72_0.33;final elongation:72_1;28</VALUE>
+        </EXPERIMENT_ATTRIBUTE>
+      </EXPERIMENT_ATTRIBUTES>
+    </EXPERIMENT>
+    <SUBMISSION accession="ERA30932867" alias="SUBMISSION-11-11-2024-11:13:56:178" center_name="University of Bremen" lab_name="European Nucleotide Archive">
+      <IDENTIFIERS>
+        <PRIMARY_ID>ERA30932867</PRIMARY_ID>
+        <SUBMITTER_ID namespace="University of Bremen">SUBMISSION-11-11-2024-11:13:56:178</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <TITLE>Submitted by University of Bremen on 11-NOV-2024</TITLE>
+    </SUBMISSION>
+    <Organization type="center">
+      <Name abbr="University of Bremen">University of Bremen</Name>
+    </Organization>
+    <STUDY accession="ERP166115" alias="cd21cf3d-8c78-4cb7-9ae2-db6a7ee49798" center_name="University of Bremen">
+      <IDENTIFIERS>
+        <PRIMARY_ID>ERP166115</PRIMARY_ID>
+        <EXTERNAL_ID namespace="BioProject">PRJEB82428</EXTERNAL_ID>
+        <SUBMITTER_ID namespace="University of Bremen">cd21cf3d-8c78-4cb7-9ae2-db6a7ee49798</SUBMITTER_ID>
+      </IDENTIFIERS>
+      <DESCRIPTOR>
+        <STUDY_TITLE>Acetate degrading bacteria across temperature in Potter Cove sediment</STUDY_TITLE>
+        <STUDY_TYPE existing_study_type="Other"/>
+        <STUDY_ABSTRACT>An RNA-stable isotope probing incubation experiment was performed, investigating the actively acetate degrading bacterial community across a temperature gradient in Antarctic, glacial influenced sediments. Slurry was prepared in a 1:6 ratio of sediment and sulfate-free artificial sea water. The used sediment originated from core STA13.04, 0-29 cm, at station 13 in Potter Cove, King George Island/Isla 25 de Mayo, West Antarctic Peninsula, retrieved in Austral summer 2019. The incubation experiment was performed anoxically for three treatments with 13C-labeled acetate and according unlabeled controls: lepidocrocite (iron(III) oxide) + acetate, sulfate + acetate and acetate-only; in biological triplicates, incubated at 2, 5, 10, 15, 20, 25 or 30 degrees C in the dark. RNA was extracted from pooled biological triplicates and density separated by ultra-centrifugation. In selected retrieved fractions, the bacterial community was identified by 16S rRNA gene amplicon sequencing on RNA (cDNA) level.  The study was funded by DFG Schwerpunktprogram SPP 1158.</STUDY_ABSTRACT>
+        <CENTER_PROJECT_NAME>Bacterial 16S rRNA community in acetate degrading stable isotope probing slurry incubation experiment across temperature range with sediment of Potter Cove</CENTER_PROJECT_NAME>
+        <STUDY_DESCRIPTION>An RNA-stable isotope probing incubation experiment was performed, investigating the actively acetate degrading bacterial community across a temperature gradient in Antarctic, glacial influenced sediments. Slurry was prepared in a 1:6 ratio of sediment and sulfate-free artificial sea water. The used sediment originated from core STA13.04, 0-29 cm, at station 13 in Potter Cove, King George Island/Isla 25 de Mayo, West Antarctic Peninsula, retrieved in Austral summer 2019. The incubation experiment was performed anoxically for three treatments with 13C-labeled acetate and according unlabeled controls: lepidocrocite (iron(III) oxide) + acetate, sulfate + acetate and acetate-only; in biological triplicates, incubated at 2, 5, 10, 15, 20, 25 or 30 degrees C in the dark. RNA was extracted from pooled biological triplicates and density separated by ultra-centrifugation. In selected retrieved fractions, the bacterial community was identified by 16S rRNA gene amplicon sequencing on RNA (cDNA) level.  The study was funded by DFG Schwerpunktprogram SPP 1158.</STUDY_DESCRIPTION>
+      </DESCRIPTOR>
+      <STUDY_ATTRIBUTES>
+        <STUDY_ATTRIBUTE>
+          <TAG>sample location</TAG>
+          <VALUE>Potter Cove</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>sample location</TAG>
+          <VALUE>Antarctica</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>environment</TAG>
+          <VALUE>marine sediment</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>environment</TAG>
+          <VALUE>slurry incubation</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>project</TAG>
+          <VALUE>ECIMAS</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>experimental design</TAG>
+          <VALUE>RNA stable isotope probing</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>DFG funding</TAG>
+          <VALUE>SPP 1158</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>ENA-FIRST-PUBLIC</TAG>
+          <VALUE>2024-11-11</VALUE>
+        </STUDY_ATTRIBUTE>
+        <STUDY_ATTRIBUTE>
+          <TAG>ENA-LAST-UPDATE</TAG>
+          <VALUE>2024-11-11</VALUE>
+        </STUDY_ATTRIBUTE>
+      </STUDY_ATTRIBUTES>
+    </STUDY>
+    <SAMPLE alias="SAMEA117052575" accession="ERS22115519">
+      <IDENTIFIERS>
+        <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+        <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+      </IDENTIFIERS>
+      <TITLE>Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction</TITLE>
+      <SAMPLE_NAME>
+        <TAXON_ID>412755</TAXON_ID>
+        <SCIENTIFIC_NAME>marine sediment metagenome</SCIENTIFIC_NAME>
+      </SAMPLE_NAME>
+      <DESCRIPTION>Potter Cove sediment slurry SIP incubation with 13C labeled acetate and sulfate at 10 degree Celsius, density separated RNA Ultra-light fraction (= gradient position 5), sediment from station 13, core STA13.04, Potter Cove, Antarctica; parameters geographic location, depth and collection date  refer to sediment used to prepare the slurry; parameter original_fraction refers to pooled fraction numbers of total fractions, gradient_pos_density and gradient_pos_rel_amt refer to calculated average of pooled fractions; for more information about slurry sample refer to BioSample submitted under accession number given under source_mat_ID</DESCRIPTION>
+      <SAMPLE_ATTRIBUTES>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>ENA first public</TAG>
+          <VALUE>2024-11-11</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>INSDC center name</TAG>
+          <VALUE>UniBremen</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>INSDC status</TAG>
+          <VALUE>public</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>Submitter Id</TAG>
+          <VALUE>10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>broad-scale environmental context</TAG>
+          <VALUE>shallow marine sediment [ENVO:03000034] | polar biom [ENVO:01000339] | glacial retreat [ENVO:01001656] | coast [ENVO:01000687]</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>chem_administration</TAG>
+          <VALUE>acetate, sulfate</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>collection date</TAG>
+          <VALUE>2019-01-23</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>depth</TAG>
+          <VALUE>0 - 0.29</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>elevation</TAG>
+          <VALUE>-15</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>environmental medium</TAG>
+          <VALUE>microbial community [PCO:1000004] | mesocosm [ENVO:01000620]</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>experimental factor</TAG>
+          <VALUE>different substrate additions | RNA stable isotope probing | exposure temperature [EFO:0000718] | response to heat [GO:0009408] | labelling [EFO:0000562]</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>geographic location (country and/or sea)</TAG>
+          <VALUE>Antarctica</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>geographic location (latitude)</TAG>
+          <VALUE>-62.2253889</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>geographic location (longitude)</TAG>
+          <VALUE>-58.6411667</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>geographic location (region and locality)</TAG>
+          <VALUE>King George Island/Isla 25 de Mayo, Potter Cove</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>gradient_pos_density</TAG>
+          <VALUE>1.7785</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>gradient_pos_rel_amt</TAG>
+          <VALUE>0.05075</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>gradient_position</TAG>
+          <VALUE>5</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>internal_standard</TAG>
+          <VALUE>10.1007/978-1-4939-9721-3_15</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotope</TAG>
+          <VALUE>13C</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog</TAG>
+          <VALUE>175</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog_approach</TAG>
+          <VALUE>single</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog_atom_frac</TAG>
+          <VALUE>0.99</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog_atom_pos</TAG>
+          <VALUE>1S/C2H4O2.Na/c1-2(3)4;/h1H3,(H,3,4);/q;+1/p-1/i1+1,2+1;</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog_dose</TAG>
+          <VALUE>30.026</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog_incu_time</TAG>
+          <VALUE>T264:00</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>isotopolog_label</TAG>
+          <VALUE>isotopically labelled</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>local environmental context</TAG>
+          <VALUE>anaerobic sediment [ENVO:00002045]</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>original_fraction</TAG>
+          <VALUE>11+12/14</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>project name</TAG>
+          <VALUE>Bacterial 16S rRNA community in acetate degrading stable isotope probing slurry incubation experiment across temperature range with sediment of Potter Cove</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>relationship to oxygen</TAG>
+          <VALUE>anaerobe</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>sample name</TAG>
+          <VALUE>10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>scientific_name</TAG>
+          <VALUE>marine sediment metagenome</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>sip_method</TAG>
+          <VALUE>10.1007/978-1-4939-9721-3_15</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>source_mat_alias</TAG>
+          <VALUE>tempSIP_14</VALUE>
+        </SAMPLE_ATTRIBUTE>
+        <SAMPLE_ATTRIBUTE>
+          <TAG>source_mat_id</TAG>
+          <VALUE>ERS22115421</VALUE>
+        </SAMPLE_ATTRIBUTE>
+      </SAMPLE_ATTRIBUTES>
+    </SAMPLE>
+    <Pool>
+      <Member member_name="" accession="ERS22115519" sample_name="SAMEA117052575" sample_title="Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction" spots="9091" bases="4036404" tax_id="412755" organism="marine sediment metagenome">
+        <IDENTIFIERS>
+          <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+          <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+        </IDENTIFIERS>
+      </Member>
+    </Pool>
+    <RUN_SET runs="4" bases="4036404" spots="9091" bytes="1701991">
+      <RUN accession="ERR13945485" alias="10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7LM7DRX2_L2_reverse-forward" center_name="University of Bremen" total_spots="3899" total_bases="1731156" size="674514" load_done="true" published="2024-11-12 01:28:02" is_public="true" cluster_name="public" has_taxanalysis="1" static_data_available="1">
+        <IDENTIFIERS>
+          <PRIMARY_ID>ERR13945485</PRIMARY_ID>
+          <SUBMITTER_ID namespace="University of Bremen">10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7LM7DRX2_L2_reverse-forward</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Illumina NovaSeq 6000 paired end sequencing; Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction - Bacteria 16Sr RNA</TITLE>
+        <EXPERIMENT_REF accession="ERX13346863">
+          <IDENTIFIERS>
+            <PRIMARY_ID>ERX13346863</PRIMARY_ID>
+          </IDENTIFIERS>
+        </EXPERIMENT_REF>
+        <RUN_ATTRIBUTES>
+          <RUN_ATTRIBUTE>
+            <TAG>library construction protocol</TAG>
+            <VALUE>RNA was extracted from slurry with a phenol-chloroform protocol. RNA was density separated into 14 fraction by ultra-centrifugation. Selected fractions were pooled for cDNA synthesis. PCRs were performed using primers with unique 8 bp barcodes at forward and reverse primers. Multiple samples were pooled into one library for sequencing. Some samples were sequenced on multiple sequence lanes and libraries in order to retrieve sufficient reads; during demultiplexing reads were sorted by read direction forward-reverse or reverse-forward using the primer sequence, resulting in multiple paired fastq files (=runs) for the same ENA experiment</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>library name</TAG>
+            <VALUE>Lib56</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>sequence lane</TAG>
+            <VALUE>H7LM7DRX2_L2</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>read direction</TAG>
+            <VALUE>reverse-forward</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-FIRST-PUBLIC</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-LAST-UPDATE</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+        </RUN_ATTRIBUTES>
+        <Pool>
+          <Member member_name="" accession="ERS22115519" sample_name="SAMEA117052575" sample_title="Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction" spots="3899" bases="1731156" tax_id="412755" organism="marine sediment metagenome">
+            <IDENTIFIERS>
+              <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+              <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+            </IDENTIFIERS>
+          </Member>
+        </Pool>
+        <SRAFiles>
+          <SRAFile cluster="public" filename="Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R1.fastq.gz" size="290203" date="2024-11-15 09:08:11" md5="2a2734cb7b5ffda1bd68d80e2ce435f5" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-16/ERR13945485/Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R1.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R2.fastq.gz" size="245093" date="2024-11-15 09:08:14" md5="d17470ecc36e4110f03e45e558c8f389" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-16/ERR13945485/Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R2.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945485" url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945485/ERR13945485" size="676141" date="2024-11-15 09:08:29" md5="da06c61634123a05e049a13459aeb174" version="1" semantic_name="SRA Normalized" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945485/ERR13945485" free_egress="worldwide" access_type="anonymous" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945485.lite" url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945485/ERR13945485.lite.1" size="498277" date="2024-11-15 12:26:04" md5="1d3f536725c866af9dad6aa0a73e69d1" version="1" semantic_name="SRA Lite" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945485/ERR13945485.lite.1" free_egress="worldwide" access_type="anonymous" org="NCBI"/>
+            <Alternatives url="s3://sra-pub-zq-6/ERR13945485/ERR13945485.lite.1" free_egress="s3.us-east-1" access_type="aws identity" org="AWS"/>
+            <Alternatives url="gs://sra-pub-zq-100/ERR13945485/ERR13945485.lite.1" free_egress="gs.us-east1" access_type="gcp identity" org="GCP"/>
+          </SRAFile>
+        </SRAFiles>
+        <CloudFiles>
+          <CloudFile filetype="fastq" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run.zq" provider="gs" location="gs.us-east1"/>
+          <CloudFile filetype="run.zq" provider="s3" location="s3.us-east-1"/>
+        </CloudFiles>
+        <Statistics nreads="2" nspots="3899">
+          <Read index="0" count="3899" average="221" stdev="0"/>
+          <Read index="1" count="3899" average="223" stdev="0"/>
+        </Statistics>
+        <Databases>
+          <Database>
+            <Table name="SEQUENCE">
+              <Statistics source="meta">
+                <Rows count="3899"/>
+                <Elements count="1731156"/>
+              </Statistics>
+            </Table>
+          </Database>
+        </Databases>
+        <Bases cs_native="false" count="1731156">
+          <Base value="A" count="403655"/>
+          <Base value="C" count="454814"/>
+          <Base value="G" count="447743"/>
+          <Base value="T" count="424944"/>
+          <Base value="N" count="0"/>
+        </Bases>
+      </RUN>
+      <RUN accession="ERR13945484" alias="10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7LM7DRX2_L2_forward-reverse" center_name="University of Bremen" total_spots="4096" total_bases="1818624" size="713732" load_done="true" published="2024-11-12 01:57:20" is_public="true" cluster_name="public" has_taxanalysis="1" static_data_available="1">
+        <IDENTIFIERS>
+          <PRIMARY_ID>ERR13945484</PRIMARY_ID>
+          <SUBMITTER_ID namespace="University of Bremen">10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7LM7DRX2_L2_forward-reverse</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Illumina NovaSeq 6000 paired end sequencing; Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction - Bacteria 16Sr RNA</TITLE>
+        <EXPERIMENT_REF accession="ERX13346863">
+          <IDENTIFIERS>
+            <PRIMARY_ID>ERX13346863</PRIMARY_ID>
+          </IDENTIFIERS>
+        </EXPERIMENT_REF>
+        <RUN_ATTRIBUTES>
+          <RUN_ATTRIBUTE>
+            <TAG>library construction protocol</TAG>
+            <VALUE>RNA was extracted from slurry with a phenol-chloroform protocol. RNA was density separated into 14 fraction by ultra-centrifugation. Selected fractions were pooled for cDNA synthesis. PCRs were performed using primers with unique 8 bp barcodes at forward and reverse primers. Multiple samples were pooled into one library for sequencing. Some samples were sequenced on multiple sequence lanes and libraries in order to retrieve sufficient reads; during demultiplexing reads were sorted by read direction forward-reverse or reverse-forward using the primer sequence, resulting in multiple paired fastq files (=runs) for the same ENA experiment</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>library name</TAG>
+            <VALUE>Lib56</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>sequence lane</TAG>
+            <VALUE>H7LM7DRX2_L2</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>read direction</TAG>
+            <VALUE>forward-reverse</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-FIRST-PUBLIC</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-LAST-UPDATE</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+        </RUN_ATTRIBUTES>
+        <Pool>
+          <Member member_name="" accession="ERS22115519" sample_name="SAMEA117052575" sample_title="Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction" spots="4096" bases="1818624" tax_id="412755" organism="marine sediment metagenome">
+            <IDENTIFIERS>
+              <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+              <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+            </IDENTIFIERS>
+          </Member>
+        </Pool>
+        <SRAFiles>
+          <SRAFile cluster="public" filename="Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R1.fastq.gz" size="315844" date="2024-11-15 09:17:03" md5="2e4e58aab185ae9fee47a94aa7381441" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-11/ERR13945484/Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R1.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R2.fastq.gz" size="252445" date="2024-11-15 09:17:02" md5="d9441ad23b2a22e11b57fff56fa39dc5" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-11/ERR13945484/Lib56_H7LM7DRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R2.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945484" url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945484/ERR13945484" size="715358" date="2024-11-15 09:17:12" md5="2236eb5eb8266832bddd04a6f02ed564" version="1" semantic_name="SRA Normalized" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945484/ERR13945484" free_egress="worldwide" access_type="anonymous" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945484.lite" url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945484/ERR13945484.lite.1" size="524626" date="2024-11-15 12:38:25" md5="1c08b767219b148e99ed7fb9bafb69f3" version="1" semantic_name="SRA Lite" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945484/ERR13945484.lite.1" free_egress="worldwide" access_type="anonymous" org="NCBI"/>
+            <Alternatives url="s3://sra-pub-zq-6/ERR13945484/ERR13945484.lite.1" free_egress="s3.us-east-1" access_type="aws identity" org="AWS"/>
+            <Alternatives url="gs://sra-pub-zq-100/ERR13945484/ERR13945484.lite.1" free_egress="gs.us-east1" access_type="gcp identity" org="GCP"/>
+          </SRAFile>
+        </SRAFiles>
+        <CloudFiles>
+          <CloudFile filetype="fastq" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run.zq" provider="gs" location="gs.us-east1"/>
+          <CloudFile filetype="run.zq" provider="s3" location="s3.us-east-1"/>
+        </CloudFiles>
+        <Statistics nreads="2" nspots="4096">
+          <Read index="0" count="4096" average="223" stdev="0"/>
+          <Read index="1" count="4096" average="221" stdev="0"/>
+        </Statistics>
+        <Databases>
+          <Database>
+            <Table name="SEQUENCE">
+              <Statistics source="meta">
+                <Rows count="4096"/>
+                <Elements count="1818624"/>
+              </Statistics>
+            </Table>
+          </Database>
+        </Databases>
+        <Bases cs_native="false" count="1818624">
+          <Base value="A" count="419052"/>
+          <Base value="C" count="481794"/>
+          <Base value="G" count="472683"/>
+          <Base value="T" count="445095"/>
+          <Base value="N" count="0"/>
+        </Bases>
+      </RUN>
+      <RUN accession="ERR13945563" alias="10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7W7NDRX2_L2_reverse-forward" center_name="University of Bremen" total_spots="542" total_bases="240648" size="155566" load_done="true" published="2024-11-12 02:59:35" is_public="true" cluster_name="public" has_taxanalysis="1" static_data_available="1">
+        <IDENTIFIERS>
+          <PRIMARY_ID>ERR13945563</PRIMARY_ID>
+          <SUBMITTER_ID namespace="University of Bremen">10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7W7NDRX2_L2_reverse-forward</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Illumina NovaSeq 6000 paired end sequencing; Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction - Bacteria 16Sr RNA</TITLE>
+        <EXPERIMENT_REF accession="ERX13346863">
+          <IDENTIFIERS>
+            <PRIMARY_ID>ERX13346863</PRIMARY_ID>
+          </IDENTIFIERS>
+        </EXPERIMENT_REF>
+        <RUN_ATTRIBUTES>
+          <RUN_ATTRIBUTE>
+            <TAG>library construction protocol</TAG>
+            <VALUE>RNA was extracted from slurry with a phenol-chloroform protocol. RNA was density separated into 14 fraction by ultra-centrifugation. Selected fractions were pooled for cDNA synthesis. PCRs were performed using primers with unique 8 bp barcodes at forward and reverse primers. Multiple samples were pooled into one library for sequencing. Some samples were sequenced on multiple sequence lanes and libraries in order to retrieve sufficient reads; during demultiplexing reads were sorted by read direction forward-reverse or reverse-forward using the primer sequence, resulting in multiple paired fastq files (=runs) for the same ENA experiment</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>library name</TAG>
+            <VALUE>Lib56</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>sequence lane</TAG>
+            <VALUE>H7W7NDRX2_L2</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>read direction</TAG>
+            <VALUE>reverse-forward</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-FIRST-PUBLIC</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-LAST-UPDATE</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+        </RUN_ATTRIBUTES>
+        <Pool>
+          <Member member_name="" accession="ERS22115519" sample_name="SAMEA117052575" sample_title="Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction" spots="542" bases="240648" tax_id="412755" organism="marine sediment metagenome">
+            <IDENTIFIERS>
+              <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+              <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+            </IDENTIFIERS>
+          </Member>
+        </Pool>
+        <SRAFiles>
+          <SRAFile cluster="public" filename="Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R1.fastq.gz" size="43862" date="2024-11-15 11:49:39" md5="fd1013de6732d6212831dd70502ac032" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-16/ERR13945563/Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R1.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R2.fastq.gz" size="41057" date="2024-11-15 11:49:40" md5="e81c81c51ec37c116c8c159fe4cb908f" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-16/ERR13945563/Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_rf_R2.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945563" url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945563/ERR13945563" size="157194" date="2024-11-15 11:49:49" md5="b4dbbd065c3f01ca8ab0fd4e3acf18d4" version="1" semantic_name="SRA Normalized" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945563/ERR13945563" free_egress="worldwide" access_type="anonymous" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945563.lite" url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945563/ERR13945563.lite.1" size="127322" date="2024-11-15 12:40:19" md5="759640803bc463ed30fd36b3e0d0d153" version="1" semantic_name="SRA Lite" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945563/ERR13945563.lite.1" free_egress="worldwide" access_type="anonymous" org="NCBI"/>
+            <Alternatives url="s3://sra-pub-zq-6/ERR13945563/ERR13945563.lite.1" free_egress="s3.us-east-1" access_type="aws identity" org="AWS"/>
+            <Alternatives url="gs://sra-pub-zq-100/ERR13945563/ERR13945563.lite.1" free_egress="gs.us-east1" access_type="gcp identity" org="GCP"/>
+          </SRAFile>
+        </SRAFiles>
+        <CloudFiles>
+          <CloudFile filetype="fastq" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run.zq" provider="gs" location="gs.us-east1"/>
+          <CloudFile filetype="run.zq" provider="s3" location="s3.us-east-1"/>
+        </CloudFiles>
+        <Statistics nreads="2" nspots="542">
+          <Read index="0" count="542" average="221" stdev="0"/>
+          <Read index="1" count="542" average="223" stdev="0"/>
+        </Statistics>
+        <Databases>
+          <Database>
+            <Table name="SEQUENCE">
+              <Statistics source="meta">
+                <Rows count="542"/>
+                <Elements count="240648"/>
+              </Statistics>
+            </Table>
+          </Database>
+        </Databases>
+        <Bases cs_native="false" count="240648">
+          <Base value="A" count="55959"/>
+          <Base value="C" count="63571"/>
+          <Base value="G" count="62378"/>
+          <Base value="T" count="58740"/>
+          <Base value="N" count="0"/>
+        </Bases>
+      </RUN>
+      <RUN accession="ERR13945562" alias="10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7W7NDRX2_L2_forward-reverse" center_name="University of Bremen" total_spots="554" total_bases="245976" size="158179" load_done="true" published="2024-11-12 03:13:00" is_public="true" cluster_name="public" has_taxanalysis="1" static_data_available="1">
+        <IDENTIFIERS>
+          <PRIMARY_ID>ERR13945562</PRIMARY_ID>
+          <SUBMITTER_ID namespace="University of Bremen">10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_Bacteria_16SrRNA_Lib56_H7W7NDRX2_L2_forward-reverse</SUBMITTER_ID>
+        </IDENTIFIERS>
+        <TITLE>Illumina NovaSeq 6000 paired end sequencing; Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction - Bacteria 16Sr RNA</TITLE>
+        <EXPERIMENT_REF accession="ERX13346863">
+          <IDENTIFIERS>
+            <PRIMARY_ID>ERX13346863</PRIMARY_ID>
+          </IDENTIFIERS>
+        </EXPERIMENT_REF>
+        <RUN_ATTRIBUTES>
+          <RUN_ATTRIBUTE>
+            <TAG>library construction protocol</TAG>
+            <VALUE>RNA was extracted from slurry with a phenol-chloroform protocol. RNA was density separated into 14 fraction by ultra-centrifugation. Selected fractions were pooled for cDNA synthesis. PCRs were performed using primers with unique 8 bp barcodes at forward and reverse primers. Multiple samples were pooled into one library for sequencing. Some samples were sequenced on multiple sequence lanes and libraries in order to retrieve sufficient reads; during demultiplexing reads were sorted by read direction forward-reverse or reverse-forward using the primer sequence, resulting in multiple paired fastq files (=runs) for the same ENA experiment</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>library name</TAG>
+            <VALUE>Lib56</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>sequence lane</TAG>
+            <VALUE>H7W7NDRX2_L2</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>read direction</TAG>
+            <VALUE>forward-reverse</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-FIRST-PUBLIC</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+          <RUN_ATTRIBUTE>
+            <TAG>ENA-LAST-UPDATE</TAG>
+            <VALUE>2024-11-11</VALUE>
+          </RUN_ATTRIBUTE>
+        </RUN_ATTRIBUTES>
+        <Pool>
+          <Member member_name="" accession="ERS22115519" sample_name="SAMEA117052575" sample_title="Potter Cove sediment slurry SIP incubation - 13C Acetate.Sulfate at 10 degrees C - RNA Ultra-light fraction" spots="554" bases="245976" tax_id="412755" organism="marine sediment metagenome">
+            <IDENTIFIERS>
+              <PRIMARY_ID>ERS22115519</PRIMARY_ID>
+              <EXTERNAL_ID namespace="BioSample">SAMEA117052575</EXTERNAL_ID>
+            </IDENTIFIERS>
+          </Member>
+        </Pool>
+        <SRAFiles>
+          <SRAFile cluster="public" filename="Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R1.fastq.gz" size="46002" date="2024-11-16 03:50:54" md5="e6d7bc158d0cea4aac8f8ad769a08078" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-3/ERR13945562/Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R1.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R2.fastq.gz" size="39781" date="2024-11-16 03:50:55" md5="3c9b9ae1d9c24670e06da155f2069601" version="1" semantic_name="fastq" supertype="Original" sratoolkit="0">
+            <Alternatives url="s3://sra-pub-src-3/ERR13945562/Lib56_H7W7NDRX2_L2_Bacteria.10degrees.13C.Acetate.Sulfate.Fraction.Ultra-light_clip_fr_R2.fastq.gz.1" free_egress="-" access_type="Use Cloud Data Delivery" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945562" url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945562/ERR13945562" size="160095" date="2024-11-16 03:51:04" md5="66bc816ff5fb1702ade4c77a6f64f39c" version="1" semantic_name="SRA Normalized" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-pub-run-odp.s3.amazonaws.com/sra/ERR13945562/ERR13945562" free_egress="worldwide" access_type="anonymous" org="AWS"/>
+          </SRAFile>
+          <SRAFile cluster="public" filename="ERR13945562.lite" url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945562/ERR13945562.lite.1" size="130295" date="2024-11-16 07:25:46" md5="41a8b2559e1bb888590a27b252c2f0f4" version="1" semantic_name="SRA Lite" supertype="Primary ETL" sratoolkit="1">
+            <Alternatives url="https://sra-downloadb.be-md.ncbi.nlm.nih.gov/sos6/sra-pub-zq-40/ERR013/13945/ERR13945562/ERR13945562.lite.1" free_egress="worldwide" access_type="anonymous" org="NCBI"/>
+            <Alternatives url="s3://sra-pub-zq-5/ERR13945562/ERR13945562.lite.1" free_egress="s3.us-east-1" access_type="aws identity" org="AWS"/>
+            <Alternatives url="gs://sra-pub-zq-105/ERR13945562/ERR13945562.lite.1" free_egress="gs.us-east1" access_type="gcp identity" org="GCP"/>
+          </SRAFile>
+        </SRAFiles>
+        <CloudFiles>
+          <CloudFile filetype="fastq" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run" provider="s3" location="s3.us-east-1"/>
+          <CloudFile filetype="run.zq" provider="gs" location="gs.us-east1"/>
+          <CloudFile filetype="run.zq" provider="s3" location="s3.us-east-1"/>
+        </CloudFiles>
+        <Statistics nreads="2" nspots="554">
+          <Read index="0" count="554" average="223" stdev="0"/>
+          <Read index="1" count="554" average="221" stdev="0"/>
+        </Statistics>
+        <Databases>
+          <Database>
+            <Table name="SEQUENCE">
+              <Statistics source="meta">
+                <Rows count="554"/>
+                <Elements count="245976"/>
+              </Statistics>
+            </Table>
+          </Database>
+        </Databases>
+        <Bases cs_native="false" count="245976">
+          <Base value="A" count="56518"/>
+          <Base value="C" count="65029"/>
+          <Base value="G" count="64434"/>
+          <Base value="T" count="59978"/>
+          <Base value="N" count="17"/>
+        </Bases>
+      </RUN>
+    </RUN_SET>
+  </EXPERIMENT_PACKAGE>
+</EXPERIMENT_PACKAGE_SET>

@@ -1,0 +1,4 @@
+esearch -db taxonomy -query "..." | efetch -format xml | xtract -pattern Taxon -element ScientificName
+
+# two different outputs
+esearch -db sra -query "..." | efetch -format (xml|docsum)
