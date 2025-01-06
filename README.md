@@ -42,7 +42,7 @@ python runner.py
 ```
 
 ## With Docker (WIP)
-Warning- this is not completed data will not be shared with host machine and will belost when the docker container finishes.
+Warning- data will not be shared with host machine and will be lost when the docker container finishes. Currently cannot be used.
 
 1. Build the image.
 ```bash
