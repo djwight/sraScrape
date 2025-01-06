@@ -21,7 +21,7 @@ def main() -> None:
     logging.info("Script Starting...")
 
     # get the metagenome taxonomies from NCBI
-    logging.info("Getting metagenome taxonomies...")
+    logging.info("Getting requested taxonomies using query...")
     cmd_taxonomy = (
         f"export NCBI_API_KEY={RUN_PARAMS['entrez_api']}; "
         f"esearch -db taxonomy -query \"{RUN_PARAMS['taxonomy_query']}\" "
@@ -35,15 +35,15 @@ def main() -> None:
         .split("\n")
     )
 
-    # get the uids for the RNA-seq SRA records with metagenome organisms
+    # get the uids for the SRA records with correct organisms
     logging.info(
-        "Getting SRA records with metagenome-associated entries and RNA-seq..."
+        "Getting SRA run IDs with requested organism(s) and additional queries..."
     )
-    rna_search_term = f"({'[ORGANISM] OR '.join(taxonomy_lst)}[ORGANISM]){RUN_PARAMS['additional_sra_query']}"
+    search_term = f"({'[ORGANISM] OR '.join(taxonomy_lst)}[ORGANISM]){RUN_PARAMS['additional_sra_query']}"
 
     cmd_sra_uid = (
         f"export NCBI_API_KEY={RUN_PARAMS['entrez_api']}; "
-        f'esearch -db sra -query "{rna_search_term}" '
+        f'esearch -db sra -query "{search_term}" '
         f"| efetch -format uid > {RUN_PARAMS['id_file']}"
     )
     run(cmd_sra_uid, shell=True)
